@@ -1,0 +1,78 @@
+.dealers{
+  @media(min-width: 768px){
+    padding: 61px 40px 0 40px;
+    margin: 0 30px;
+  }
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 7px 0 0 0;
+  margin: 0 0 5px 0;
+  width: 324px;
+  @media (min-width: 768px) {
+    padding: 0;
+    margin: 0 auto;
+    width: 650px;
+  }
+}
+
+.content {
+  text-decoration: none;
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #111111;
+  padding: 20px;
+  text-transform: uppercase;
+  @media (min-width: 768px) {
+    padding: 0;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    min-width: 170px;
+  }
+}
+
+.address {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444444;
+  padding: 21px 19px 0 0;
+  @media (min-width: 768px) {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    min-width: 160px;
+  }
+}
+
+.map {
+  display: block;
+  width: 100vw;
+  height: 366px;
+  background-image: url(../../../public/images/footer/map.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.image {
+  background: url("../../../public/images/footer/map-pin.png") no-repeat center
+    center;
+  content: "";
+  width: 60px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  position: absolute;
+}

@@ -1,0 +1,96 @@
+.footer {
+  width: 300px;
+  margin: 0 auto 20px;
+  padding: 10px 0px 0px 19px;
+  text-align: center;
+  background-color: bisque;
+  @media(min-width: 768px){
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.title {
+  font-family: "Loto", Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 200px;
+  margin-bottom: 16px;
+  padding: 0 0 12px 0;
+  border-bottom: 1px solid red;
+  @media(min-width: 768px){
+    margin: 0;
+    padding: 0;
+
+  }
+}
+
+.cat {
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 600px;
+}
+
+.social {
+}
+
+.socialList {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid red;
+  padding: 0 0 20px 0;
+  @media(min-width: 768px){
+    padding: 0;
+    display: none;
+  }
+}
+
+.link {
+  text-decoration: none;
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+  @media(min-width: 768px){
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.icon {
+  background: url("./public/footer/image/icon/i-1.svg") no-repeat center;
+  content: '';
+  top:0;
+  left:0;
+}
+
+.academy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 0 0 0 3px;
+}
+
+.logotype {
+}
+
+.logo {
+}
+
+.image {
+  background-image: url("../../../public/images/footer/icon/html_academy.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

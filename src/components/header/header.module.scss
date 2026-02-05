@@ -1,0 +1,95 @@
+.header {
+  padding-top: 46px;
+  position: relative;
+  background: url("/public/images/logo/mobile-bg.svg") no-repeat center 23px;
+  @media (min-width: 768px) {
+    padding: 20px 30px 25px 251px;
+    background: none;
+  }
+}
+
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  @media (min-width: 768px) {
+    top: 20px;
+    left: 30px;
+  }
+}
+
+.menu {
+  position: relative;
+}
+
+.list {
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  top: 0;
+  left: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid red;
+  display: none;
+
+  @media (min-width: 768px) {
+    position: static;
+    width: auto;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+}
+
+.item {
+  border-bottom: 1px solid red;
+  @media (min-width: 768px) {
+    border: none;
+  }
+}
+
+.link {
+  display: block;
+  padding: 30px 5px;
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  @media (min-width: 768px) {
+    padding: 0;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+.toggle {
+  position: absolute;
+  top: -44px;
+  right: 22px;
+  width: 24px;
+  height: 24px;
+  background-color: red;
+  z-index: 5;
+  border: none;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.opened .list {
+  display: block;
+  @media (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.opened .toggle {
+  background-color: green;
+}
