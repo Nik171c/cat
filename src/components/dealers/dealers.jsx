@@ -6,22 +6,22 @@ export default function Dealers(props) {
     return (
         <div className={styles.dealers}>
             <div className={styles.text}>
-                <div className={styles.content}>приглашаем к сотрудничеству дилеров!</div>
+                <div className={styles.content}>We Invite Dealers to Cooperate!</div>
                 <div className={styles.address}>
-                    <span>ул. Большая Конюшенная, д. 19/8</span>
-                    <span>Санкт-Петербург</span>
+                    <span>Bolshaya Konyushennaya St., 19/8</span>
+                    <span>Saint Petersburg</span>
                 </div>
             </div>
             <div className={styles.map}>
-                {/* <iframe 
+                <iframe 
                 src={src} 
                 width="600" 
                 height="450" 
-                style="border:0;" 
+                style={{border:0}} 
                 allowFullScreen="" 
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
-                ></iframe> */}
+                ></iframe>
             </div>
         </div>
     )

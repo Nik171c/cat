@@ -38,10 +38,10 @@ export default function Header() {
             <Link to={"/"} className={styles.link}>Home</Link>
           </li>
           <li className={styles.item}>
-            <Link to={"/catalog"} className={styles.link}>Product Catalog</Link>
+            <Link to={"/catalog"} className={styles.link}>Catalog</Link>
           </li>
           <li className={styles.item}>
-            <Link to={"/program"} className={styles.link}>Program Selection</Link>
+            <Link to={"/program"} className={styles.link}>Programs</Link>
           </li>
         </ul>
       </nav>

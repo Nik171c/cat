@@ -17,7 +17,9 @@ export default function ThemaToggler() {
     <div className={styles.toggler}>
       <button
         className={styles.current}
-      >{thema}</button>
+      >
+        <span className="visually-hidden">{thema}</span>
+      </button>
       <div className={styles.list}>
         <div className={styles["list-container"]}>
           {THEMES.map((item) =>
@@ -26,7 +28,7 @@ export default function ThemaToggler() {
               onClick={handleChangeThema}
               data-thema={item.name}
             >
-              <span className={styles.color} style={{background: item.color}}></span>
+              <span className={styles.color} style={{ background: item.color }}></span>
               {item.name}
             </button>)}
         </div>

@@ -6,8 +6,8 @@ export default function Example(props) {
 
     return (
         <section className={styles.example}>
-            <h2 className={styles.title}>Живой пример</h2>
-            <p className={styles.text}>Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день. </p>
+            <h2 className={styles.title}>Real-Life Example</h2>
+            <p className={styles.text}>Boris lost 5 kg in 2 months simply by replacing his regular food with Cat Energy Slim. Excellent results without exhausting workouts! At the same time, he didn’t change his habits and still sleeps 16 hours a day.</p>
             <Stats />
             <div className={styles.sliderContainer}>
                 <Slider />

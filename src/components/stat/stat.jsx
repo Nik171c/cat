@@ -6,17 +6,17 @@ export default function Stats() {
         <div className={styles.stats}>
             <div className={styles.statsContainer}>
                 <div className={styles.item}>
-                    <div className={styles.value}>5 КГ</div>
-                    <div className={styles.title}>снижение веса</div>
+                    <div className={styles.value}>5 KG</div>
+                    <div className={styles.title}>weight loss</div>
                 </div>
                 <div className={styles.item}>
-                    <div className={styles.value}>60 ДНЕЙ</div>
-                    <div className={styles.title}>затрачено времени</div>
+                    <div className={styles.value}>60 DAYS</div>
+                    <div className={styles.title}>time spent</div>
                 </div>
             </div>
             <div className={styles.text}>
-                <span>Затраты на питание:</span>
-                <span>15 000 РУБ.</span>
+                <span>Nutrition Costs: </span>
+                <span>500 DOLLARS</span>
             </div>
         </div>
     );
