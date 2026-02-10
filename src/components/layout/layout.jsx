@@ -6,6 +6,7 @@ import { selectTheme } from "../../store/settings-process/settings-process.selec
 import { THEMES } from "../../constants";
 import burgerClosedIcon from "../../assets/images/burger/closed.svg";
 import burgerOpenedIcon from "../../assets/images/burger/opened.svg";
+import Footer from "../footer/footer";
 
 
 
@@ -25,7 +26,7 @@ export default function Layout(props) {
       <main className="main">
         <Outlet />
       </main>
-      <footer className="footer"></footer>
+      <Footer />
     </div>
   );
 }

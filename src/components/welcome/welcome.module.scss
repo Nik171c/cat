@@ -1,6 +1,7 @@
 .welcome {
   text-align: center;
   margin-bottom: 20px;
+
   @media (min-width: 768px) {
     text-align: left;
     width: 709px;
@@ -15,9 +16,37 @@
       left: 0;
       width: 709px;
       height: 609px;
-      background: url("../../assets/images/welcome-can_tablet.jpg") no-repeat 0
-        0;
+      background: url("../../assets/images/welcome-can_tablet.jpg") no-repeat 0 0;
       z-index: -1;
+    }
+  }
+
+  @media(min-width: 1440px) {
+    width: auto;
+    padding: 0;
+
+    &::before {
+      width: 50%;
+      height: calc(100% + 130px);
+      background: var(--thema);
+      bottom: unset;
+      left: 50%;
+      top: -130px;
+      z-index: 2;
+      opacity: 0.85;
+    }
+
+    &::after {
+      content: "";
+      width: 50%;
+      height: calc(100% + 130px);
+      background: #3e3d42 url("../../assets/images/cat-bg-desktop.jpg") no-repeat 0 0;
+      bottom: unset;
+      left: 50%;
+      top: -130px;
+      z-index: 1;
+      position: absolute;
+      background-size: auto 100%;
     }
   }
 }
@@ -26,12 +55,32 @@
   @media (min-width: 768px) {
     padding: 51px 91px 0;
   }
+
+  @media(min-width: 1440px) {
+    padding: 96px 700px 184px 79px;
+    width: 1220px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+
+    &::before {
+      content: "";
+      width: 552px;
+      height: 499px;
+      position: absolute;
+      left: calc(50% - 164px);
+      top: 15px;
+      background: url("../../assets/images/can-desktop.png") no-repeat 0 0;
+      z-index: 5;
+    }
+  }
 }
 
 .block {
   padding-bottom: 135px;
   position: relative;
   margin-bottom: 4px;
+
   &::after {
     content: "";
     width: 280px;
@@ -43,6 +92,7 @@
     background: url("../../assets/images/can-mobile.png") no-repeat 0 0;
     z-index: 5;
   }
+
   @media (min-width: 768px) {
     margin: 0;
     padding: 0;
@@ -56,8 +106,7 @@
 .wrapper {
   padding-top: 27px;
   padding-bottom: 168px;
-  background: #4b4a50 url("../../assets/images/cat-background-mobile.jpg")
-    no-repeat center 0;
+  background: #4b4a50 url("../../assets/images/cat-background-mobile.jpg") no-repeat center 0;
   background-size: auto 100%;
   position: relative;
 
@@ -72,10 +121,12 @@
     opacity: 0.85;
     z-index: 1;
   }
+
   @media (min-width: 768px) {
     margin: 0;
     padding: 0;
     background: none;
+
     &::before {
       display: none;
     }
@@ -92,6 +143,7 @@
   width: 300px;
   position: relative;
   z-index: 3;
+
   @media (min-width: 768px) {
     font-size: 60px;
     line-height: 60px;
@@ -99,6 +151,10 @@
     margin-bottom: 40px;
     padding: 0;
     color: #000000;
+  }
+
+  @media(min-width: 1440px) {
+    margin: 0 0 41px;
   }
 }
 
@@ -121,6 +177,10 @@
     color: #000000;
     margin: 0 0 50px 0;
     padding: 0;
+  }
+
+  @media(min-width: 1440px) {
+    margin: 0 0 51px;
   }
 }
 

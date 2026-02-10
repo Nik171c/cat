@@ -4,6 +4,11 @@
     margin: 0 30px 51px;
     padding-top: 50px;
   }
+  @media (min-width: 1440px) {
+    margin: 0 auto;
+    width: 1220px;
+    padding: 74px;
+  }
 }
 
 .title {
@@ -33,7 +38,11 @@
     width: 660px;
     flex-wrap: wrap;
     gap: 82px 133px;
-    
+    margin: 0 auto;
+  }
+  @media (min-width: 768px) {
+    width: auto;
+    gap: 82px 72px;
   }
 }
 
@@ -58,7 +67,7 @@
       font-size: 280px;
       line-height: 208px;
       text-align: center;
-      color: #F2F2F2;
+      color: #f2f2f2;
     }
   }
 }

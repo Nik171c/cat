@@ -5,8 +5,16 @@
   z-index: 10;
 
   @media (min-width: 768px) {
-    padding: 20px 30px 25px 251px;
+    padding: 40px 30px 25px 251px;
     background: none;
+  }
+
+  @media(min-width: 1440px) {
+    width: 1220px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 75px 0 20px 610px;
+    min-height: 128px;
   }
 }
 
@@ -18,6 +26,11 @@
   @media (min-width: 768px) {
     top: 20px;
     left: 30px;
+  }
+
+  @media(min-width: 1440px) {
+    top: 55px;
+    left: 0;
   }
 }
 
@@ -45,6 +58,10 @@
     flex-wrap: wrap;
     justify-content: flex-end;
     gap: 15px;
+  }
+
+  @media(min-width: 1440px) {
+    background: none;
   }
 }
 

@@ -18,14 +18,7 @@ const data = [
     href: "/",
     image: tiger
   },
-  // {
-
-  //   title: "похудение",
-  //   text: "Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.",
-  //   link: "каталог slim",
-  //   href: "/",
-  //   image: tiger
-  // }
+ 
 ]
 
 export default function Programs() {

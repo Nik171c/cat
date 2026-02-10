@@ -9,7 +9,7 @@ export default function Welcome() {
       <div className={styles.container}>
       <div className={styles.block}>
         <div className={styles.wrapper}>
-          <p className={styles.title}>Functional <br /> nutrition for cats</p>
+          <p className={styles.title}>Functional nutrition&nbsp;for&nbsp;cats</p>
           <p className={styles.slogan}>Taking care of yourself? Take care of your cat!</p>
         </div>
       </div>

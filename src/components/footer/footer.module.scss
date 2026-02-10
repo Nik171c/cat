@@ -1,12 +1,10 @@
 .footer {
   @media (min-width: 768px) {
     margin: 0;
-    padding: 0;
+    padding: 62px 30px 46px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    width: 708px;
-    margin: 0 auto;
+    background-color: #f2f2f2;
   }
 }
 
@@ -16,9 +14,10 @@
   border-bottom: 1px solid red;
   margin: 19px;
   padding: 0 0 15px 0;
+
   @media (min-width: 768px) {
     border: none;
-    padding: 19px 0 0 0;
+    padding: 0;
     margin: 0;
   }
 }
@@ -43,8 +42,7 @@
   font-weight: 600px;
 }
 
-.social {
-}
+.social {}
 
 .socialList {
   list-style: none;
@@ -56,7 +54,10 @@
 
   @media (min-width: 768px) {
     padding: 0;
-    display: none;
+    border: none;
+    width: 128px;
+    gap: 24px;
+    margin: 0 0 0 31px;
   }
 }
 
@@ -66,10 +67,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: blue;
+  color: #666666;
 
-  @media (min-width: 768px) {
+  &:hover {
+    color: var(--thema);
   }
+
+  &:focus {
+    color: var(--thema);
+    outline: none;
+  }
+
+  &:active {
+    color: var(--thema);
+    outline: none;
+    filter: brightness(0.8);
+  }
+
+  @media (min-width: 768px) {}
 }
 
 .icon {
@@ -85,10 +100,11 @@
   width: 280px;
   margin: 0 auto;
   text-align: center;
+
   @media (min-width: 768px) {
     margin: 0;
     width: 162px;
-    padding-top: 12px;
+    padding-top: 0;
   }
 }
 
@@ -100,11 +116,9 @@
   margin: 8px 0 0 0;
 }
 
-.logotype {
-}
+.logotype {}
 
-.logo {
-}
+.logo {}
 
 .academy {
   width: 27;

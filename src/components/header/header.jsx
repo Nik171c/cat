@@ -19,6 +19,7 @@ export default function Header() {
       <ThemaToggler />
       <Link to={"/"} className={styles.logo}>
         <picture>
+          <source media="(min-width: 1440px)" srcSet="/images/logo/logo-desktop.svg"/>
           <source media="(min-width: 768px)" srcSet="/images/logo/logo-tablet.svg"/>
           <img src="/images/logo/logo-mobile.svg" alt="" />
         </picture>

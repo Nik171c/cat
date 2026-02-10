@@ -7,8 +7,12 @@
 
   @media (min-width: 768px) {
     background-color: #ffffff;
-    padding: 46px 0 0 1px;
-    margin: 0 30px 94px;
+    padding: 46px 0 0;
+    margin: 0;
+  }
+  @media (min-width: 1440px) {
+    padding: 0;
+    background-color: #f2f2f2;
   }
 }
 
@@ -20,11 +24,34 @@
   line-height: 40px;
   color: #000000;
   text-align: center;
+  font-weight: normal;
+
   @media (min-width: 768px) {
-    margin: 0 0 61px 0;
+    margin: 0 30px 61px;
     font-size: 60px;
     line-height: 60px;
     text-align: left;
+  }
+  @media (min-width: 1440px) {
+    margin: 0;
+    background-color: #ffffff;
+    padding: 4px 0 72px;
+  }
+}
+
+.titleText {
+  @media (min-width: 1440px) {
+    display: block;
+    width: 1220px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-right: 510px;
+  }
+}
+
+.exampleBlock {
+  @media (min-width: 768px) {
+    margin: 0 30px;
   }
 }
 
@@ -35,6 +62,7 @@
   font-size: 14px;
   line-height: 18px;
   color: #000000;
+
   @media (min-width: 768px) {
     padding: 0 11px 0 0;
     margin: 0 0 54px 0;
@@ -47,7 +75,11 @@
 .sliderContainer {
   background-color: #eaeaea;
   position: relative;
+  padding-bottom: 20px;
+
   @media (min-width: 768px) {
+    padding-bottom: 103px;
+
     &::before {
       content: "";
       width: 100%;
