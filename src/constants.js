@@ -24,3 +24,18 @@ export const THEMES = [
     color: 'brown'
   },
 ];
+
+export const Menu = {
+  home: {
+    name: 'Home',
+    url: '/'
+  },
+  catalog: { 
+    name: 'Catalog',
+    url: '/catalog'
+  },
+  program: {
+    name: 'Programs',
+    url: '/program'
+  }
+};

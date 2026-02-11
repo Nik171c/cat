@@ -18,7 +18,7 @@ const data = [
     href: "/",
     image: tiger
   },
- 
+
 ]
 
 export default function Programs() {
@@ -27,17 +27,17 @@ export default function Programs() {
     <section className={styles.programs}>
       <h2 className="visually-hidden">Programs</h2>
       <ul className={styles.list}>
-          {
-                    data.map((item, index) => <li className={styles.card}>
-                        <span
-                            className={styles.image}
-                            style={{ backgroundImage: `url(../../../public/images/programs_tablet/i-${index+1}.svg)` }}
-                        >
-                        </span>
-          <h3 className={styles.title}>{item.title}</h3>
-          <p className={styles.text}>{item.text}</p>
-          <Link className={styles.link} to={item.href}>{item.link}</Link>
-        </li>)}
+        {
+          data.map((item, index) => <li className={styles.card} key={index}>
+            <span
+              className={styles.image}
+              style={{ backgroundImage: `url(../../../public/images/programs_tablet/i-${index + 1}.svg)` }}
+            >
+            </span>
+            <h3 className={styles.title}>{item.title}</h3>
+            <p className={styles.text}>{item.text}</p>
+            <Link className={styles.link} to={item.href}>{item.link}</Link>
+          </li>)}
       </ul>
     </section>
   )

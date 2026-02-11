@@ -9,7 +9,7 @@
   }
 
   @media(min-width: 1440px) {
-    top: 127px;
+    top: calc(100% + 10px);  
     right: 0;
   }
 

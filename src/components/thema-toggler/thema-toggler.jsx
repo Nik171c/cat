@@ -27,6 +27,7 @@ export default function ThemaToggler() {
               className={`${styles.thema} ${item.name === thema ? styles.active : ''}`}
               onClick={handleChangeThema}
               data-thema={item.name}
+              key={item.name}
             >
               <span className={styles.color} style={{ background: item.color }}></span>
               {item.name}

@@ -121,3 +121,20 @@
 .opened .toggle {
   background-image: var(--burger-opened);
 }
+
+.active {
+  @media (min-width: 768px) {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: rgba(0, 0, 0, 0.5);
+    text-decoration-thickness: 2px;
+  }
+}
+
+.home .link {
+  @media (min-width: 1440px) {
+    color: #ffffff;
+    text-decoration-color: rgba(255, 255, 255, 0.5);
+
+  }
+}
