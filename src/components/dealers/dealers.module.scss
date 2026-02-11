@@ -5,6 +5,10 @@
     padding: 0;
     margin: 0;
   }
+  @media (min-width: 1440px) {
+    position: relative;
+    padding: 93px 0 107px;
+  }
 }
 
 .text {
@@ -16,6 +20,15 @@
   @media (min-width: 768px) {
     padding: 59px 70px 41px 71px;
     margin: 0;
+  }
+  @media (min-width: 1440px) {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 3;
+    left: calc(50% - 610px);
+    padding: 61px 79px 55px;
+    width: 566px;
   }
 }
 
@@ -70,6 +83,13 @@
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  @media (min-width: 1440px) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+  }
 }
 
 .map iframe {

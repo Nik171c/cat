@@ -34,7 +34,7 @@
 }
 
 .value {
-  border: 1px solid red;
+  border: 1px solid #cdcdcd;
   padding: 20px;
   text-align: center;
   font-family: "Oswald", Arial, sans-serif;
@@ -70,6 +70,9 @@
     line-height: 14px;
     max-width: 135px;
     background-color: #ffffff;
+  }
+  @media (min-width: 1440px) {
+    background-color: #f2f2f2;
   }
 }
 

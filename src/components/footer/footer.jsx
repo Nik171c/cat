@@ -4,6 +4,7 @@ import { Academy, Logo, Tg, Vk, Yt } from "../icons";
 export default function Footer() {
     return (
         <footer className={styles.footer}>
+            <div className={styles.container}>
             <a href="#" className={styles.logoLink}>
                 <Logo />
             </a>
@@ -36,7 +37,7 @@ export default function Footer() {
                     </a>
                 </div>
             </div>
-
+</div>
         </footer>
     )
 }

@@ -11,7 +11,7 @@
     margin: 0;
   }
   @media (min-width: 1440px) {
-    padding: 0;
+    padding: 0 0 67px;
     background-color: #f2f2f2;
   }
 }
@@ -107,5 +107,7 @@
   }
   @media (min-width: 1440px) {
     margin-top: -204px;
+    padding: 0;
+    background: none;
   }
 }

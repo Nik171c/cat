@@ -8,6 +8,15 @@
   }
 }
 
+.container {
+  @media (min-width: 1440px) {
+    width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .logoLink {
   display: block;
   text-align: center;
@@ -22,27 +31,14 @@
   }
 }
 
-// .title {
-//   font-family: "Loto", Arial, sans-serif;
-//   font-size: 26px;
-//   font-weight: 200px;
-//   margin-bottom: 16px;
-//   padding: 0 0 12px 0;
-//
-
-//   @media (min-width: 768px) {
-//     margin: 0;
-//     padding: 0;
-//   }
-// }
-
 .cat {
   font-family: "Oswald", Arial, sans-serif;
   font-size: 26px;
   font-weight: 600px;
 }
 
-.social {}
+.social {
+}
 
 .socialList {
   list-style: none;
@@ -84,7 +80,8 @@
     filter: brightness(0.8);
   }
 
-  @media (min-width: 768px) {}
+  @media (min-width: 768px) {
+  }
 }
 
 .icon {
@@ -116,9 +113,11 @@
   margin: 8px 0 0 0;
 }
 
-.logotype {}
+.logotype {
+}
 
-.logo {}
+.logo {
+}
 
 .academy {
   width: 27;
