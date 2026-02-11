@@ -31,7 +31,7 @@
   transition: width 2s ease;
   background: #eaeaea;
 
-  @media(min-width: 768px){
+  @media (min-width: 768px) {
     &::before {
       content: "";
       z-index: 1;
@@ -39,8 +39,14 @@
       height: 150px;
       background: #ffffff;
       position: absolute;
-      top:0;
-      left:0;
+      top: 0;
+      left: 0;
+    }
+  }
+  @media (min-width: 1440px) {
+    background-color: #F2F2F2;
+    &::before {
+      height: 132px;
     }
   }
 }
@@ -97,7 +103,7 @@
     background: orange;
   }
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     &::before {
       height: 512px;
     }

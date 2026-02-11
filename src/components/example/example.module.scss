@@ -49,9 +49,24 @@
   }
 }
 
+.exampleWrapper {
+  @media (min-width: 1440px) {
+    display: flex;
+    width: 1220px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 74px 0 0 0;
+  }
+}
+
 .exampleBlock {
   @media (min-width: 768px) {
     margin: 0 30px;
+  }
+  @media (min-width: 1440px) {
+    margin: 0;
+    padding: 0;
+    width: 500px;
   }
 }
 
@@ -89,5 +104,8 @@
       top: 0;
       left: 0;
     }
+  }
+  @media (min-width: 1440px) {
+    margin-top: -204px;
   }
 }
