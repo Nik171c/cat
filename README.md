@@ -1,3 +1,8 @@
+This project is written in:
+- [React]
+- [Redux Toolkit] - website theme switching
+- [React-Router]
+- [css modules]
 
 
 # React + Vite
