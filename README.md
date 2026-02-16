@@ -1,8 +1,10 @@
-This project is written in:
+### This project is written in:
 - [React]
 - [Redux Toolkit] - website theme switching
 - [React-Router]
 - [css modules]
+
+### Published project - [https://nik171c.github.io/cat](https://nik171c.github.io/cat)
 
 
 # React + Vite
