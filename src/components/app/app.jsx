@@ -6,7 +6,7 @@ import ChoiceProgram from '../../pages/choice-program';
 import Layout from '../layout';
 export default function App() {
     return (
-        <BrowserRouter basename="/cat">
+        <BrowserRouter>
             <Routes>
                 <Route path={"/"} element={<Layout />}>
                     <Route index element={<Main />} />

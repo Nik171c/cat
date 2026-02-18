@@ -8,7 +8,7 @@ function ProductCard({product}) {
 
                 <Link to={`/product/${product.id}`}>
                     <picture>
-                        <img className={styles.productImage} src={product.image} alt="{product.image}" />
+                        <img className={styles.products} src={product.image} alt="{product.image}" />
                     </picture>
                 </Link>
             </div>

@@ -24,7 +24,7 @@ function Products() {
     
     return ( 
          <div className={"details"}>
-            <h1 className={"title"}>Страница главная, здесь тоже продукты</h1>
+            <h1 className={"title"}>Каталог продукции</h1>
             {products.map((item)=><ProductCard product={item} />)}
         </div>
      );

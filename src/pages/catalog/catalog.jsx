@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./catalog.module.scss";
 import Products from "../../components/product/Products";
+import { products } from "../../components/product/data/products";
+
 
 
 export default function Catalog(props) {
