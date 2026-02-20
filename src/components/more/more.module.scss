@@ -1,32 +1,10 @@
-.details {
-  margin: 0 auto 30px;
-  border-bottom: 1px solid red;
-}
-
-.list {
-  margin: 0 20px;
-  list-style: none;
-  padding: 0;
-}
-
-.card {
-  list-style: none;
-  border-top: 2px solid red;
-}
-
-.title {
-  font-family: "Oswald", Arial, Helvetica, sans-serif;
-  font-size: 36px;
-  line-height: 36px;
-}
-
-.productContent {
-}
-
-.taste {
+.more {
+  padding-top: 50px;
+  background: url("../../assets/images/taste/plus.svg") no-repeat center 20px;
   text-align: center;
   padding-top: 59px;
-  border-top: 2px solid red;
+  border-top: 1px solid red;
+  padding-bottom: 30px;
 }
 
 .title {

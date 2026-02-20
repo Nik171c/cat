@@ -10,5 +10,6 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/cat'
+  // base: '/cat'
+  base: ''
 })
